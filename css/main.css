@@ -1,0 +1,48 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input-div {
+    width: 100vw;
+    display: flex;
+    gap: 4vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.offers-div {
+    display: flex;
+    gap: 3vw;
+    padding-top: 3vw;
+}
+.input-block {
+    display: flex;
+    width: 50vw;
+    height: 7vw;
+}
+.tia-img, .photo-svg {
+    height: 3vh
+}
+.tia-a, .photo-a {
+    height: 7vh;
+}
+.input {
+    width: 79%;
+    height: 5vh;
+    border-radius: 2vh 0 0 2vh;
+    padding-left: 1vw;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+}
+.tia-a {
+    width: 79%;
+    height: 5vh;
+    border-radius: 0 2vh 2vh 0;
+    padding-left: 1vw;
+    background-color: transparent;
+    border-top: 1px solid rgba(255, 255, 255, 0.377);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.377);
+}
